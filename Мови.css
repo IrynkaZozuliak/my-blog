@@ -1,0 +1,40 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Monotype Corsiva, serif;
+}
+header  {
+ 	background: yellow;
+ 	padding: 10px 0;
+ 	text-align: center;
+ 	 }
+
+h3, h4 { text-align: center;
+}
+div {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+aside, main {
+	width: 50%; 
+	float: left;
+}
+aside img {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+dl {
+  float:left;
+}
+dl:nth-child(3n+1) {
+  clear:both;
+}
+
+footer {
+	background: yellow;
+    padding: 10px 0;
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+header {
+    padding: 25px 0;
+    text-align: center;
+}
+footer {
+    padding: 10px 0;
+    text-align: center;
+}
+
+  
+ .blockquote-6 {
+    border-left: 6px solid #073d12;
+    font-size: 16px;
+    font-style: italic;
+    margin: 16px;
+    padding: 16px 24px;
+    position: relative;
+}
+.blockquote-6:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -6px;
+    height: 40px;
+    background-color: #fff;
+    width: 6px;
+    margin-top: -1em;
+}
+.blockquote-6:after {
+    content: "”";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    color: #073d12;
+    font-size: 50px;
+    font-family: Times, sans-serif;
+    font-weight: bold;
+    line-height: 30px;    
+}
+.blockquote-6 cite {
+    color: #2f4f4f;
+    font-size: 15px;
+    padding-top: 10px;
+    display: block;
+    text-align: right;
+}
+
+ 
